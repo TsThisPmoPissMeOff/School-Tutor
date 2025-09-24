@@ -5,7 +5,7 @@ ENV PUID=1000
 ENV PGID=1000
 ENV TZ=Etc/UTC
 # e.g. enable basic auth (but you may handle auth externally)
-ENV CUSTOM_USER=myuser
+ENV CUSTOM_USER=admin
 ENV PASSWORD=secretpassword
 
 EXPOSE 3000 3001
